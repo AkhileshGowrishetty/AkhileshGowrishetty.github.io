@@ -11365,6 +11365,13 @@ p.lead {
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
+
+#sideNav .navbar-nav .nav-item-none .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: none;
+}
+
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
@@ -11444,6 +11451,7 @@ section.resume-section {
 }
 section.resume-section .resume-section-content {
   width: 100%;
+  text-align: justify;
 }
 
 @media (min-width: 768px) {
@@ -11458,4 +11466,8 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+
+.normal-case {
+  text-transform: none;
 }
